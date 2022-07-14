@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rubik+Moonrocks&display=swap');
+
+#header nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+}
+
+#header li {
+    padding-left: 100px;
+    font-size: 40px;
+}
+
+#header a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+#header li a:hover {
+    background-color: #111;
+}
+
+#footer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#footer legend{
+    color: aliceblue;
+}

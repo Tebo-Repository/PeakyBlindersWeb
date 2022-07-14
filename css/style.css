@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+.container-fluid {
+    background-color: #111;
+    text-decoration-color: aliceblue;
+}
+
+#img-card {
+    float: right;
+    width: 500px;
+    height: 600px;
+    padding-left: 3%;
+
+}
+
+#img-card2 {
+    width: 700px;
+    height: 500px;
+    padding-left: 5%;
+
+}
+
+#img-card3 {
+    width: 1000px;
+    height: 500px;
+    padding-left: 10px;
+}
+
+#contenido h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contenido p {
+    font-size: 21px;
+}
+
+#contenido {
+    text-align: center;
+    color: antiquewhite;
+    align-items: center;
+    padding-inline-start: 150px;
+    padding-inline-end: 230px;
+}
+
+#contenido legend {
+    color: aliceblue;
+}
+
+.reparto{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    padding: 4rem;
+    border-radius: 1rem;
+    flex-grow: 4;
+    border: 4px solid hsl(0, 0%, 90%);
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.reparto section{
+    align-items: center;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px solid hsl(0, 100%, 50%);
+}
+
+#contenido-contacto legend{
+    text-align: center;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 40px;
+}
+
+#contenido-contacto h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#contenido-contacto form{
+    margin-left: 300px;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 3rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border: 4px solid hsl(0, 0%, 90%);
+    
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  font: 1.25rem / 1.5 sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
+

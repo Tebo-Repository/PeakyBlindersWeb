@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/icon.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/static.css">
+    <title>Peaky Fans</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("./static/nav.html");
+            $("#carrusel").load("./static/carrusel/carrusel.html");
+            $("#footer").load("./static/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="carrusel"></div>
+    <div class="container-fluid">
+        <section id="contenido-contacto">
+            <center><h1>Si necesitas saber mas de nosotros contactanos</h1></center>
+
+            <script>
+                function myFunction() {
+                  alert("Su contacto a sido enviado con éxito");
+                }
+            </script>
+
+            <br><br>
+            <div class="container">
+                <form>
+                    <fieldset>
+                        <legend>Contacto</legend>
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Escribe tu Nombre" /><br>  
+                    <label>Email: </label>
+                    <input type="email" name="email" placeholder="Ingrese su Email" size="50" /><br>
+                    <label>Asunto: </label>
+                    <br>
+                    <input type="text" name="asunto" placeholder="Escribe tu Asunto" /><br>
+                    <br>
+                    <label>Mensaje: </label>
+                    <br>
+                    <textarea cols="30" rows="10" placeholder="Escribe tu Mensaje" class="Campo"> </textarea><br>
+                    <br>
+                    <button onclick="myFunction()">Enviar contacto</button><br>
+                    </fieldset>
+        
+                    </form>
+            </div>
+            
+        </section>
+
+        <div id="footer"></div> 
+              
+    </div>
+    
+</body>
+
+</html>
