@@ -27,17 +27,17 @@
     padding-left: 10px;
 }
 
-#contenido h1 {
+.contenido h1 {
     color: white;
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#contenido p {
+.contenido p {
     font-size: 21px;
 }
 
-#contenido {
+.contenido {
     text-align: center;
     color: antiquewhite;
     align-items: center;
@@ -45,10 +45,10 @@
     padding-inline-end: 230px;
 }
 
-#contenido legend {
+.contenido legend {
     color: aliceblue;
 }
-
+/* 
 .reparto{
     margin: auto;
     width: 70%;
@@ -68,20 +68,43 @@
     border-radius: 1rem;
     border: 1px solid hsl(0, 100%, 50%);
 }
+*/
 
-#contenido-contacto legend{
+.reparto {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
+    gap: 10px;
+    align-items: center;
+    
+}
+
+.reparto section{
+    border-radius: 1rem;
+    /*border: 2px solid hsl(0, 99%, 50%);*/
+    background-color: aliceblue;
+    padding: 1rem;
+    box-shadow: .2rem .2rem .5rem .2rem rgba(255, 0, 0, 0.877);
+}
+
+.reparto img {
+    margin: 1%;
+    box-shadow: 0rem 0rem 0rem .2rem rgba(255, 238, 0, 0.925);
+}
+
+.contenido-contacto legend{
     text-align: center;
     font-family: 'League Gothic', sans-serif;
     font-size: 40px;
 }
 
-#contenido-contacto h1{
+.contenido-contacto h1{
     color: white;
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-#contenido-contacto form{
+.contenido-contacto form{
     margin-left: 300px;
     width: 50%;
     box-sizing: border-box;
@@ -101,5 +124,20 @@ textarea {
   box-sizing: border-box;
   width: 100%;
   padding: 0.5rem 0.75rem;
+}
+
+/* MEDIAS*/
+
+@media (min-width: 768px){
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header #header"
+        "nav #carrousel"
+        "main contenido"
+        "footer footer"
+        ;
+    }
+    
 }
 

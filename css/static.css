@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rubik+Moonrocks&display=swap');
 
+#header{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    grid-area: nav;
+}
+
 #header nav {
     list-style-type: none;
     margin: 0;
@@ -35,3 +42,4 @@
 #footer legend{
     color: aliceblue;
 }
+
