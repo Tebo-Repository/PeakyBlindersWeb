@@ -43,3 +43,15 @@
     color: aliceblue;
 }
 
+@media (min-width: 480px){
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header nav"
+        "nav #carrousel"
+        "main contenido"
+        "footer footer"
+        ;
+    }
+    
+}

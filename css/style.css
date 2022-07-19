@@ -127,6 +127,18 @@ textarea {
 }
 
 /* MEDIAS*/
+@media (min-width: 480px){
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header #header"
+        "nav #carrousel"
+        "main contenido"
+        "footer footer"
+        ;
+    }
+    
+}
 
 @media (min-width: 768px){
     .body{
@@ -140,4 +152,31 @@ textarea {
     }
     
 }
+
+@media (min-width: 992px){
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header #header"
+        "nav #carrousel"
+        "main contenido"
+        "footer footer"
+        ;
+    }
+    
+}
+
+@media (min-width: 1280px){
+    .body{
+        display: grid;
+        grid-template-areas:
+        "header #header"
+        "nav #carrousel"
+        "main contenido"
+        "footer footer"
+        ;
+    }
+    
+}
+
 
